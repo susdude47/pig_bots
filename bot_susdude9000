@@ -1,0 +1,8 @@
+def choice(round_score,my_score,opponent_score):
+    if my_score - opponent_score >= 30:
+        if round_score <= 12:
+            return True
+    elif round_score <= 20:
+        return True
+    else:
+        return False
